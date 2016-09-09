@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dates</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <div class="col-1 col-m-12">
+        </div>
+        <h1>Working with Dates</h1>
+        <div class="container">
+            <div class="col-12 col-m-12">
+               <p id="myday"></p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+            <div class="container">
+
+                <div class="col-12 col-m-12">
+                    <H2> Calculate days left until New Years Day:</H2>
+                    <p>Today is: </p>
+                    <p id="todaysdate"></p>
+                    <p>&nbsp;</p>
+                    <p>New Years Day is:</p>
+                    <p id="newYearDate"></p>
+                    <p>&nbsp;</p>
+                    <p>You have <span id = "daysleft"> </span> days left until New Years Day</p>
+                </div>
+            </div>
+
+        <div class="container">
+
+            <div class="col-1 col-m-12">
+            </div>
+
+            <div class="col-10 col-m-12">
+
+                <h2>How Long has it been since...</h2>
+                <form name="form1" method="post" action="">
+
+                    <p>
+                        <label>Today's Date:
+                            <input name="today" type="text" id="today" readonly>
+                        </label>
+                    </p>
+
+                    <p>&nbsp;</p>
+
+                    <p>
+                        <label>Enter your special date:
+                            <input type="text" name="specialdate" id="specialdate">
+                        </label>
+
+                        <input type="button" name="age" id="age" value="Calculate">
+                    </p>
+
+                    <p>&nbsp;</p>
+
+                    <p>
+                        <label>
+                            <textarea name="reply" cols="32" rows="3" readonly id="reply"></textarea>
+                        </label>
+                    </p>
+                </form>
+            </div>
+
+            <div class="col-1 col-m-12">
+            </div>
+
+        </div>
+
+
+
+    </main>
+</div>
+<script src="myscripts.js"></script>
+
+</body>
+
+</html>
